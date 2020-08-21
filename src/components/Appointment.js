@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import avatar from "../images/avatar.png";
 import doc_img from "../images/avatar.png";
 import Apponintmentheader from "./Apponintmentheader";
+import "bootstrap/dist/css/bootstrap.css";
 import "./appointment.css";
 import Button from "./Button";
 class Appointment extends Component {
@@ -22,7 +23,7 @@ class Appointment extends Component {
         </div>
 
         <div className="container">
-          <div className="card pt-3 px-4 mb-5">
+          <div className="shadow py-3 px-4 mb-5">
             <div>
               <ul className="list-unstyled d-flex justify">
                 <li className="pr-2">
@@ -55,20 +56,27 @@ class Appointment extends Component {
           </div>
         </div>
 
-        <div className="container h-100">
-          <div className="card bg_grad text-white">
+        <div className="container">
+          <div
+            id="circle-shape-example"
+            className="py-3 bg_grad px-4 text-light"
+          >
             <img
-              className="card-img w-25  float-right"
               src={doc_img}
-              alt="Card image"
+              alt="doctor"
+              className="curve image-fluid"
+              class="curve"
             />
-            <div className="card-img-overlay h-100">
-              <h3 className="card-text">
-                Consult online with the best doctors
-              </h3>
-              <p>Stay home, stay safe</p>
-              <Button></Button>
-            </div>
+            <h2 className="card-text">Consult online with the best doctors </h2>
+            <p className="h5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              necessitatibus, reiciendis cupiditate debitis, quos sequi eligendi
+              dignissimos impedit quaerat sint hic excepturi eos unde voluptate?
+              Commodi facere velit culpa sit magni minus excepturi
+              necessitatibus atque error iusto, eius, sint dolor non veniam
+              tempora delectus aut iste iure ipsa. Et, animi!
+            </p>
+            <Button></Button>
           </div>
         </div>
       </div>

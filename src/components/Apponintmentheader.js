@@ -1,4 +1,6 @@
 import React from "react";
+import "jquery";
+import "popper.js";
 import avatar from "../images/avatar.png";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -7,7 +9,7 @@ import "./home.css";
 function Apponintmentheader() {
   return (
     <div>
-      <header className="pb-4 ">
+      <header className="pb-4" id="header">
         <nav className="navbar navbar-expand-lg navbar-light  container">
           <button
             className="navbar-toggler"
@@ -80,12 +82,6 @@ function Apponintmentheader() {
               placeholder="Search"
               aria-label="Search"
             />
-            {/* <button
-              className="btn btn-outline-success my-2 my-sm-0  d-inline"
-              type="submit"
-            >
-              <i className="fas fa-search">Search</i>
-            </button> */}
           </form>
         </div>
       </header>

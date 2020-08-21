@@ -1,6 +1,21 @@
-.bg_doc {
-}
-
 .bg_grad {
   background-color: #631aec;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open + Sans");
+#circle-shape-example {
+  font-family: Open Sans, sans-serif;
+}
+#circle-shape-example p {
+  line-height: 1.8;
+}
+#circle-shape-example .curve {
+  width: 10%;
+  height: auto;
+  min-width: 150px;
+  float: right;
+  margin-left: 2rem;
+  border-radius: 50%;
+  -webkit-shape-outside: cross-fade();
+  shape-outside: cross-fade();
 }
