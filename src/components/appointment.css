@@ -1,6 +1,13 @@
 .bg_grad {
   background-color: #631aec;
 }
+.bg_blue {
+  background-color: #631aec;
+}
+.red_border {
+  color: #ff5668;
+  font-weight: bolder;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Open + Sans");
 #circle-shape-example {
@@ -15,7 +22,6 @@
   min-width: 150px;
   float: right;
   margin-left: 2rem;
-  border-radius: 50%;
-  -webkit-shape-outside: cross-fade();
-  shape-outside: cross-fade();
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
 }

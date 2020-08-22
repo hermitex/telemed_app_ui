@@ -6,7 +6,7 @@ function Button() {
     <div className="">
       <button
         type="submit"
-        className="btn bg-red text-uppercase font-weight-bold"
+        className="btn bg-red text-uppercase font-weight-bold text-light"
       >
         Signup
       </button>
